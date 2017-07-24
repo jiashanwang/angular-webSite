@@ -1,0 +1,104 @@
+﻿
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+list-style:none;
+ }
+#top ul {
+    float:right;
+    /*overflow: hidden;*/
+}
+
+#top ul li {
+    float: right;
+    width: 200px;
+    padding: 16px 5px;
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#top ul li a {
+    text-decoration: none;
+    color: #8EB8C8;
+}
+
+#top ul li a:hover {
+    color: #fff;
+}
+
+#top {
+    overflow:hidden;
+    background: #000;
+}
+
+/*#apple{
+   /*text-align:center;
+     height:700px;
+     line-height:700px;
+    background:green;
+    /*background:url("../images/apple.jpg") no-repeat;*/
+    /*background-size:100% 100%;*/
+/*}*/
+#setting {
+   text-align:center;
+     height:700px;
+     line-height:700px;
+    background:green;
+    background:url("../images/mi.jpg") no-repeat; 
+     background-size:100% 100%;
+}
+#huawei {
+    overflow:hidden;
+    border-bottom:1px solid #E6E6E6;
+}
+.leftbar-item {
+    width:200px;
+    height:50px;
+    line-height:50px;
+    float:right;
+    margin:10px;
+
+}
+#huawei li a {
+    text-decoration:none;
+    color:#897B75;
+}
+.tips-word{
+    height:500px;
+    /*background:gray;*/
+    text-align:center;
+    /*line-height:500px;*/
+}
+#top>p>img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+#tab table{
+       margin:0 auto;
+}
+#top>p{
+    float:left;
+    margin-left:250px;
+    margin-top:26px;
+}
+#slt {
+    margin:0 auto;
+    
+}
+#slt>p{
+    display:inline-block;
+    margin:10px 30px;
+}
+#slt {
+    width:600px;
+}
+.hid {
+    display:none;
+}
+#tab {
+    padding:20px 40px;
+}

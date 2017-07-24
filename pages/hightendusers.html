@@ -1,0 +1,33 @@
+﻿<div class="tips-word" ng-controller="hightendsuers">
+    <p>请选择不需要展示的项：</p>
+
+     <div id="slt">
+         <p ng-repeat ="item in heads">
+             <input type="checkbox" name="contents" ng-checked="property" ng-click="fn()"/>{{item.name}}
+         </p>
+     </div>
+    <div id="tab">
+       <table>
+           <thead>
+               <tr>
+                   <th width="105" height="50" ng-repeat="tr in heads" ng-hide="tr.status">{{tr.name}}</th>               
+               </tr>
+           </thead>
+           <tbody>
+          
+               <tr ng-repeat="item in contents">
+                   <td height="50" ng-hide="isSelected(0)">{{item[0]}}</td>
+                   <td height="50" ng-hide="isSelected(1)">{{item[1]}}</td>
+                   <td height="50" ng-hide="isSelected(2)">{{item[2]}}</td>
+                   <td height="50" ng-hide="isSelected(3)">{{item[3]}}</td>
+                   <td height="50" ng-hide="isSelected(4)">{{item[4]}}</td>
+                   <td height="50" ng-hide="isSelected(5)">{{item[5]}}</td>
+                   <td height="50" ng-hide="isSelected(6)">{{item[6]}}</td>
+                   <td height="50" ng-hide="isSelected(7)">{{item[7]}}</td>
+               </tr>
+           </tbody>
+       </table>
+      
+    </div>
+
+</div>
